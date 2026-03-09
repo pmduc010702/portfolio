@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>PMD — AI Filmmaker</title>
+<title>Phan Minh Duc — AI Filmmaker</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Instrument+Serif:ital@0;1&family=Geist+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
 <style>
@@ -163,7 +163,10 @@ footer p{font-family:'Geist Mono',monospace;font-size:.58rem;letter-spacing:.15e
 ::-webkit-scrollbar{width:4px;height:4px}
 ::-webkit-scrollbar-track{background:transparent}
 ::-webkit-scrollbar-thumb{background:rgba(245,240,232,.1);border-radius:2px}
+.wf-left{display:block}
 @media(max-width:900px){
+  .wf-left{display:none}
+
   #hero{grid-template-columns:1fr;min-height:auto}
   .hero-right{height:60vw;max-height:380px}
   .hero-left{padding:88px 24px 64px}
@@ -225,7 +228,7 @@ footer p{font-family:'Geist Mono',monospace;font-size:.58rem;letter-spacing:.15e
 <div id="cursor-ring"></div>
 
 <nav id="nav">
-  <a href="#hero" class="nav-logo">Phan Minh Duc - Content Creator</a>
+  <a href="#hero" class="nav-logo">Phan Minh Duc</a>
   <ul class="nav-links">
     <li><a href="#films">Films</a></li>
     <li><a href="#workflow">Process</a></li>
@@ -403,7 +406,7 @@ footer p{font-family:'Geist Mono',monospace;font-size:.58rem;letter-spacing:.15e
 
 <section id="workflow" style="padding:140px 48px">
   <div style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:1fr 2fr;gap:80px;align-items:start">
-    <div class="rv" style="position:sticky;top:100px">
+    <div class="rv wf-left" style="position:sticky;top:100px">
       <div class="sec-label">Process</div>
       <h2 class="sec-h" style="font-size:clamp(2.5rem,4vw,4rem)">
         <span class="plain">The AI</span>
@@ -503,7 +506,7 @@ footer p{font-family:'Geist Mono',monospace;font-size:.58rem;letter-spacing:.15e
       <span class="c2">Something Together</span>
     </h2>
     <p class="contact-sub">Bạn có một câu chuyện muốn kể? Hãy viết cho tôi. Cùng nhau tạo ra điều chưa từng tồn tại.</p>
-    <a href="mailto:pmduc010702@gmail.com" class="contact-email">pmduc010702@gmail.com</a>
+    <a href="/cdn-cgi/l/email-protection#92e2fff6e7f1a2a3a2a5a2a0d2f5fff3fbfebcf1fdff" class="contact-email"><span class="__cf_email__" data-cfemail="80f0ede4f5e3b0b1b0b7b0b2c0e7ede1e9ecaee3efed">[email&#160;protected]</span></a>
     <a href="tel:0914405384" class="contact-phone">0914 405 384</a>
   </div>
   <div class="socials rv d2">
@@ -527,7 +530,7 @@ footer p{font-family:'Geist Mono',monospace;font-size:.58rem;letter-spacing:.15e
   </div>
 </div>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 const cur=document.getElementById('cursor'),ring=document.getElementById('cursor-ring');
 let mx=0,my=0,rx=0,ry=0;
 document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;cur.style.left=mx+'px';cur.style.top=my+'px';});
